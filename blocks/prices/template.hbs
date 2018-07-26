@@ -1,0 +1,20 @@
+<!-- slid -->
+	<div class="slid">
+		<div class="container">	
+			<h3 class="wthree-title">{{title}}</h3>
+			<div class="slid-row w3-agileits">
+				{{#each_with_sort boxes "order"}}
+				<div class="col-md-4 slid-grids">
+					<h4>{{service_name}}</h4>
+					<h3>{{price}}</h3>
+					<h5>{{quantity}}</h5>
+					<div class="w3lsmore">
+						<a href="{{btn_url}}" class="button-pipaluk button--inverted"> {{btn_text}}</a>
+					</div>	
+				</div>
+				{{/each_with_sort}}
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //slid -->
