@@ -1,0 +1,144 @@
+{   
+    "groups": "tabs",
+    "template": "template.hbs",
+    "settings": [{
+        "name": "block_id",
+        "label": "Block's id",
+        "type": "text"
+    }, 
+    {
+        "name": "title",
+        "label": "Title",
+        "type": "text"
+    },
+    {
+        "name": "tab1_name",
+        "label": "Tab 1 text",
+        "type": "text"
+    },
+    {
+        "name": "tab1_url",
+        "label": "Tab 1 Url",
+        "type": "text"
+    },
+    {
+        "name": "tab2_name",
+        "label": "Tab 2 text",
+        "type": "text"
+    },
+    {
+        "name": "tab2_url",
+        "label": "Tab 2 Url",
+        "type": "text"
+    },
+    {
+        "name": "tab3_name",
+        "label": "Tab 3 text",
+        "type": "text"
+    },
+    {
+        "name": "tab3_url",
+        "label": "Tab 3 Url",
+        "type": "text"
+    },
+    {
+        "name": "img1",
+        "label": "Image 1",
+        "type": "image"
+    },
+    {
+        "name": "img2",
+        "label": "Image 2",
+        "type": "image"
+    },
+    {
+        "name": "img3",
+        "label": "Image 3",
+        "type": "image"
+    },
+    {
+        "name": "tab1_title",
+        "label": "Tab 1 Title",
+        "type": "text"
+    },
+    {
+        "name": "tab1_desc",
+        "label": "Tab 1 Description",
+        "type": "textarea"
+    },
+    {
+        "name": "tab1_btn_txt",
+        "label": "Tab 1 button Text",
+        "type": "text"
+    },
+    {
+        "name": "tab1_btn_url",
+        "label": "Tab 1 Button Url",
+        "type": "text"
+    },
+    {
+        "name": "tab2_title",
+        "label": "Tab 2 Title",
+        "type": "text"
+    },
+    {
+        "name": "tab2_desc",
+        "label": "Tab 2 Description",
+        "type": "textarea"
+    },
+    {
+        "name": "tab2_btn_txt",
+        "label": "Tab 2 button Text",
+        "type": "text"
+    },
+    {
+        "name": "tab2_btn_url",
+        "label": "Tab 2 Button Url",
+        "type": "text"
+    },
+    {
+        "name": "tab3_title",
+        "label": "Tab 3 Title",
+        "type": "text"
+    },
+    {
+        "name": "tab3_desc",
+        "label": "Tab 3 Description",
+        "type": "textarea"
+    },
+    {
+        "name": "tab3_btn_txt",
+        "label": "Tab 3 button Text",
+        "type": "text"
+    },
+    {
+        "name": "tab3_btn_url",
+        "label": "Tab 3 Button Url",
+        "type": "text"
+    }],
+    "defaults": { 
+      "block_id": "tabs", 
+      "title": "Spa & Skin Care",
+      "tab1_name": "Нашата мисия",
+      "tab1_url": "#Tab1",
+      "tab2_name": "Предимвства",
+      "tab2_url": "#Tab2",
+      "tab3_name": "Полезни съвети",
+      "tab3_url": "#Tab3",
+      "img1": "%block_url%/assets/img/g1.jpg",
+      "img2": "%block_url%/assets/img/g2.jpg",
+      "img3": "%block_url%/assets/img/g3.jpg",
+      "tab1_title": "Подобряване на Вашето здраве и самочувствие",
+      "tab1_desc": "<p>Максимално бързо и качествено подобряване на Вашето здраве, справяне с болестите, повишаване на жизнения тонус, стимулиране на защитните механизми в борбата с неблагоприятни фактори (инфекции, травми, стрес). Подобряване на състоянието на кожата и подкожните тъкани, стимулиране на кожните рецептори, осигуряване на нормалната работа на вътрешните органи, пречистване на тялото от токсични вещества, нормализиране на кръвно и лимфно обращение. Заедно с това, релаксацията по време на масаж също е нашата цел, постигането на която е толкова необходимо при хипертония на мускулите.</p>",
+      "tab1_btn_txt": "Запазете час",
+      "tab1_btn_url": "#",
+      "tab2_title": "Предимството на нашето студио за масажи",
+      "tab2_desc": "<p>Масаж – това е начин за подобряване на общото състояние на организма, лечение и профилактика на различни болести. Масажът може да бъде важен компонент от вашия начин на живот, помага за поддържане на тялото и духа в най-добрата форма. Предимството на нашето студио за масаж: индивидуален подход към всеки клиент, изготвяне на индивидуални масажни програми, комбиниране на методи и техники, което позволява да се намери решение с максимално полезен резултат.</p>",
+      "tab2_btn_txt": "Запазете час",
+      "tab2_btn_url": "#",
+      "tab3_title": "Нашата грижа за вас не приключва в нашето студио",
+      "tab3_desc": "<p>Посетете нашият блог с полезна информация и съвети относно масажи, спа терапии, физически упражнения, здравословно хранене, отслабване, и др. Освен професионалната грижа в нашето масажно студио, задължително ще получите консултации как да продължите да се грижите за Вашето здраве и красота в домашни условия. Защото ни е грижа!</p>",
+      "tab3_btn_txt": "Към блога",
+      "tab3_btn_url": "#"
+    }
+}
