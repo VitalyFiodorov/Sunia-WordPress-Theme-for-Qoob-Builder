@@ -1,1 +1,44 @@
-
+{
+    "name": "Sunia",
+    "groups": [{
+        "id": "main",
+        "label": "Main Blocks",
+        "position": 0
+    },
+    {
+        "id": "welcome",
+        "label": "Welcome",
+        "position": 1
+    },
+    {
+        "id": "tabs",
+        "label": "Tabs",
+        "position": 2
+    },
+    {
+        "id": "services",
+        "label": "Services",
+        "position": 3
+    },
+    {
+        "id": "pricing",
+        "label": "Pricing",
+        "position": 4
+    }],
+    "blocks": [{
+        "name": "welcome",
+        "url": "%theme_url%/blocks/welcome/"
+    },
+    {
+        "name": "tabs",
+        "url": "%theme_url%/blocks/tabs/"
+    },
+    {
+        "name": "services",
+        "url": "%theme_url%/blocks/services/"
+    },
+    {
+        "name": "pricing",
+        "url": "%theme_url%/blocks/prices/"
+    }]
+}
