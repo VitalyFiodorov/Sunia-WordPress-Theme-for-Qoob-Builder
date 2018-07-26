@@ -1,0 +1,66 @@
+{   
+    "groups": "welcome",
+    "template": "template.hbs",
+    "settings": [{
+        "name": "block_id",
+        "label": "Block's id",
+        "type": "text"
+    }, 
+    {
+        "name": "title",
+        "label": "Title",
+        "type": "text"
+    },
+    {
+        "name": "description",
+        "label": "description",
+        "type": "textarea"
+    },
+    {
+        "name": "icon_1",
+        "label": "Icon 1",
+        "type": "icon"
+    },
+    {
+        "name": "icon_2",
+        "label": "Icon 2",
+        "type": "icon"
+    },
+    {
+        "name": "row1_title",
+        "label": "Row 1 Title",
+        "type": "text"
+    },
+    {
+        "name": "row1_desc",
+        "label": "Row 1 Description",
+        "type": "textarea"
+    },
+    {
+        "name": "row2_title",
+        "label": "Row 2 Title",
+        "type": "text"
+    },
+    {
+        "name": "row2_desc",
+        "label": "Row 2 Description",
+        "type": "textarea"
+    },
+    {
+        "name": "image",
+        "label": "Image",
+        "type": "image"
+    }],
+    "defaults": { 
+      "block_id": "welcome", 
+      "title": "Добре дошли!", 
+      "description": "<p>Добре дошли в Масажно Студио Шумен, където сме специализирани в предоставянето на лечебен масаж, възстановителен, релаксиращ и антицелулитен масаж с трайни резултати. Независимо дали желаете да увеличите подвижността на ставите, да излекувате хронична болка или просто да се отпуснете напълно в приятният свят на масажите, ние ще персонализираме масажна терапия специално за вашите индивидуални нужди.</p>",
+      "icon_1": "glyphicon glyphicon-ok",
+      "icon_2": "glyphicon glyphicon-ok",
+      "row1_title": "Масажи",
+      "row1_desc": "Персонализираме всеки вид масаж и СПА терапия специално за вашите индивидуални нужди",
+      "row2_title": "Ваучери за подарък",
+      "row2_desc": "Не чакайте да ви изпреварват! Направете подарък МАСАЖ. Подарете здраве и красота с ваучер за подарък от Студио за масажи Шумен",
+      "image": "%block_url%/assets/img/img2.jpg"
+    }
+}
