@@ -1,0 +1,73 @@
+{
+    "groups": "pricing",
+    "template": "template.hbs",
+    "settings": [{
+        "name": "block_id",
+        "label": "Block's id",
+        "type": "text"
+        }, 
+        {
+        "name": "title",
+        "label": "Title",
+        "type": "text",
+        "placeholder": "Title"
+        },
+        {
+        "name": "boxes",
+        "label": "boxes",
+        "type": "accordion",
+        "viewType": "expand",
+        "settings":[ 
+            {
+            "name": "service_name",
+            "label": "Service Type",
+            "type": "text"
+            },
+            {
+            "name": "price",
+            "label": "Price",
+            "type": "text"
+            },
+            {
+            "name": "quantity",
+            "label": "Quantity",
+            "type": "text"
+            }, 
+            {
+            "name": "btn_text",
+            "label": "Button text",
+            "type": "text"
+            }, 
+            {
+            "name": "btn_url",
+            "label": "Button link",
+            "type": "text"
+            }]
+    }],
+    "defaults": { 
+      "block_id": "services",
+      "title": "Най-добри цени",
+      "boxes":  [{
+           "service_name": "Тонизиращ масаж",
+           "price": "30 BGN",
+           "quantity": "50 МИНУТИ",
+           "btn_text": "Ценоразпис",
+           "btn_url": "#",
+            "order": 1
+         },{
+           "service_name": "Лечебен масаж",
+           "price": "20 BGN",
+           "quantity": "25 МИНУТИ",
+           "btn_text": "Ценоразпис",
+           "btn_url": "#",
+            "order": 2
+        },{
+          "service_name": "Релаксиращ масаж",
+           "price": "35 BGN",
+           "quantity": "60 МИНУТИ",
+           "btn_text": "Ценоразпис",
+           "btn_url": "#",
+            "order": 3
+        }] 
+    }
+}
